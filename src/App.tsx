@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 import Navbar from "./components/Navbar";
 import Content from "./components/Content";
-import Projects from "./components/Projects";
-import Socials from "./components/Socials";
 import Footer from "./components/Footer";
 
 
@@ -11,13 +9,13 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main className="">
+      <div className=" bg-gray-900 bg-repeat">
+    <main className="app min-h-screen w-full md:w-10/12 m-auto ">
         <Navbar/>
         <Content/>
-        <Projects/>
-        <Socials/>
         <Footer/>
     </main>
+      </div>
   );
 }
 
